@@ -1,0 +1,83 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.WidgetTitle" parent="Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:drawablePadding">@dimen/small_margin</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="AppTheme.WidgetCloseButton" parent="TextAppearance.AppCompat">
+        <item name="android:background">@drawable/background_without_deadline_ripple</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+    </style>
+
+    <style name="AppTheme.WidgetAddButton" parent="TextAppearance.AppCompat">
+        <item name="android:background">@drawable/background_widget_add_button</item>
+        <item name="android:padding">@dimen/small_margin</item>
+        <item name="android:layout_margin">@dimen/small_margin</item>
+    </style>
+
+    <style name="AppTheme.SubmitButton" parent="Base.TextAppearance.AppCompat.Widget.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="AppTheme.PriorityButton" parent="Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored">
+        <item name="android:layout_marginTop">@dimen/normal_margin</item>
+        <item name="android:layout_marginBottom">@dimen/normal_margin</item>
+        <item name="android:layout_marginStart">@dimen/small_margin</item>
+        <item name="android:layout_marginEnd">@dimen/small_margin</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:scaleX">0.8</item>
+        <item name="android:scaleY">0.8</item>
+    </style>
+
+    <style name="AppTheme.EditText" parent="Base.Widget.AppCompat.EditText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="AppTheme.DateButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_marginStart">@dimen/normal_margin</item>
+        <item name="android:layout_marginEnd">@dimen/normal_margin</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="ShowDateDatePicker" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">#a5d6a7</item>
+        <item name="colorPrimaryDark">#66bb6a</item>
+        <item name="colorAccent">#66bb6a</item>
+    </style>
+
+    <style name="DeadlineDatePicker" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">#ff6e40</item>
+        <item name="colorPrimaryDark">#ff5722</item>
+        <item name="colorAccent">#ff5722</item>
+    </style>
+</resources>

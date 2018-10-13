@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#bcaaa4</color>
+    <color name="colorPrimaryDark">#757575</color>
+    <color name="colorAccent">#455a64</color>
+
+    <color name="colorText">#455a64</color>
+
+    <color name="colorHighPriority">#ff6e40</color>
+    <color name="colorNormalPriority">#e0e0e0</color>
+    <color name="colorLowPriority">#a5d6a7</color>
+
+    <color name="colorDeadlineExpired">#ffab91</color>
+    <color name="colorDeadline">#ffccbc</color>
+    <color name="colorBeforeDeadline">#fffde7</color>
+    <color name="colorEndRange">#fafafa</color>
+    <color name="colorStartRange">#e8f5e9</color>
+    <color name="colorWithoudDeadline">#e3f2fd</color>
+
+    <color name="colorDeadlineExpiredRipple">#e57373</color>
+    <color name="colorDeadlineRipple">#ef9a9a</color>
+    <color name="colorBeforeDeadlineRipple">#ffecb3</color>
+    <color name="colorEndRangeRipple">#cfd8dc</color>
+    <color name="colorStartRangeRipple">#dcedc8</color>
+    <color name="colorWithoudDeadlineRipple">#b0bec5</color>
+
+    <color name="colorStartRangeText">#66bb6a</color>
+    <color name="colorStartRangeButtonRipple">#a5d6a7</color>
+    <color name="colorDeadlineText">#b71c1c</color>
+    <color name="colorDeadlineButtonRipple">#ff8a80</color>
+</resources>

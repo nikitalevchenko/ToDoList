@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Task List</string>
+
+    <string name="task_name">Task name</string>
+    <string name="task_description">Task description</string>
+    <string name="add_task">Create</string>
+    <string name="empty_name">Task name is empty</string>
+    <string name="save">Save</string>
+
+    <string name="please_use_app_widget">Please use app widget</string>
+    <string name="without_deadline">Without deadline</string>
+    <string name="deadline_date">Deadline %s</string>
+    <string name="select_show_date">Show %s</string>
+    <string name="show_now">Show now</string>
+
+</resources>
